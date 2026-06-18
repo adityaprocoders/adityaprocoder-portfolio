@@ -4,6 +4,7 @@ import {
   FaInstagram,
   FaLinkedin,
   FaYoutube,
+  FaFacebook,
 } from "react-icons/fa";
 
 
@@ -44,35 +45,42 @@ const Hero = () => {
 
          <div className="flex justify-center lg:justify-start gap-5 mt-10">
 
-              <a
-                href="https://www.linkedin.com/in/adityaprocoder/"
-                className="w-12 h-12 rounded-full border-2 border-[#00B4D8] bg-slate-200 hover:bg-[#00B4D8] flex items-center justify-center transition-all duration-300 hover:-translate-y-1"
-              >
-                <FaLinkedin />
-              </a>
+  <a
+    href="https://www.linkedin.com/in/adityaprocoder/"
+    className="group w-12 h-12 rounded-full border-2 border-[#00B4D8] bg-slate-200 flex items-center justify-center transition-all duration-300 hover:-translate-y-1"
+  >
+    <FaLinkedin className="text-black group-hover:text-[#0A66C2] transition-colors duration-300" />
+  </a>
 
-              <a
-                href="https://github.com/adityaprocoders"
-                className="w-12 h-12 rounded-full border-2 border-[#00B4D8] bg-slate-200 hover:bg-[#00B4D8] flex items-center justify-center transition-all duration-300 hover:-translate-y-1"
-              >
-                <FaGithub />
-              </a>
+  <a
+    href="https://github.com/adityaprocoders"
+    className="group w-12 h-12 rounded-full border-2 border-[#00B4D8] bg-slate-200 flex items-center justify-center transition-all duration-300 hover:-translate-y-1"
+  >
+    <FaGithub className="text-black group-hover:text-[#181717] transition-colors duration-300" />
+  </a>
 
-              <a
-                href="https://www.instagram.com/adityaprocoders/"
-                className="w-12 h-12 rounded-full border-2 border-[#00B4D8] bg-slate-200 hover:bg-[#00B4D8] flex items-center justify-center transition-all duration-300 hover:-translate-y-1"
-              >
-                <FaInstagram />
-              </a>
+  <a
+    href="https://www.instagram.com/adityaprocoders/"
+    className="group w-12 h-12 rounded-full border-2 border-[#00B4D8] bg-slate-200 flex items-center justify-center transition-all duration-300 hover:-translate-y-1"
+  >
+    <FaInstagram className="text-black group-hover:text-[#E4405F] transition-colors duration-300" />
+  </a>
 
-              <a
-                href="https://www.youtube.com/@adityaprocoders"
-                className="w-12 h-12 rounded-full border-2 border-[#00B4D8] bg-slate-200 hover:bg-[#00B4D8] flex items-center justify-center transition-all duration-300 hover:-translate-y-1"
-              >
-                <FaYoutube />
-              </a>
+  <a
+    href="https://www.youtube.com/@adityaprocoders"
+    className="group w-12 h-12 rounded-full border-2 border-[#00B4D8] bg-slate-200 flex items-center justify-center transition-all duration-300 hover:-translate-y-1"
+  >
+    <FaYoutube className="text-black group-hover:text-[#FF0000] transition-colors duration-300" />
+  </a>
 
-            </div>
+  <a
+    href="https://www.facebook.com/mradityasingh886/"
+    className="group w-12 h-12 rounded-full border-2 border-[#00B4D8] bg-slate-200 flex items-center justify-center transition-all duration-300 hover:-translate-y-1"
+  >
+    <FaFacebook className="text-black group-hover:text-[#1877F2] transition-colors duration-300" />
+  </a>
+
+</div>
 
           </div>
 
