@@ -16,9 +16,9 @@ const SocialIcons = {
 const About = () => {
   // Social links ka data object
   const socialLinks = [
-    { name: "Instagram", icon: SocialIcons.Instagram, url: "#" },
-    { name: "Linkedin", icon: SocialIcons.Linkedin, url: "#" },
-    { name: "Github", icon: SocialIcons.Github, url: "#" }
+    { name: "Instagram", icon: SocialIcons.Instagram, url: "https://www.instagram.com/adityaprocoders/" },
+    { name: "Linkedin", icon: SocialIcons.Linkedin, url: "https://www.linkedin.com/in/adityaprocoder/" },
+    { name: "Github", icon: SocialIcons.Github, url: "https://github.com/adityaprocoders" }
   ];
 
   return (
